@@ -16,34 +16,34 @@
 
 ---
 
-## 🚀 O que é este repositório?
+## O que é este repositório?
 
-Seja bem-vindo ao meu laboratório de **C**! 🧪
+Seja bem-vindo ao meu laboratório de **C**!
 Aqui é onde eu consolido minha base em programação "direto no metal", lidando com alocação de memória, ponteiros e a sintaxe clássica da linguagem.
 
 O objetivo principal deste espaço é documentar minha **evolução técnica** e servir como um campo de treinamento focado na minha preparação para a disciplina de **Estruturas de Dados**.
 
 ---
 
-## 🗺️ Mapa do Repositório
+## Mapa do Repositório
 
 Aqui a casa é organizada! Deixei de fora os arquivos de configuração do Git para focar apenas no que importa: o código.
 
 ```text
-📂 praticando-c/
+praticando-c/
 │
-├── 🗂️ cabecalhos/
+├── cabecalhos/
 │   ├── cabecalho.c          ← Lógica por trás das funções utilitárias
 │   └── cabecalho.h          ← Contratos, structs e declarações globais
 │
-└── 🛠️ praticas/
+└── praticas/
     ├── cadastro_clientes.c  ← (Prática 01) Gerenciamento via Structs + Alocação Dinâmica
     └── calculadora_idade.c  ← (Prática 02) Lógica de conversão de tempo
 ```
 
 ---
 
-## 🕹️ O que tem dentro das Práticas?
+## O que tem dentro das Práticas?
 
 | Arquivo | Descrição | Destaques Técnicos |
 | :--- | :--- | :--- |
@@ -52,7 +52,7 @@ Aqui a casa é organizada! Deixei de fora os arquivos de configuração do Git p
 
 ---
 
-## ⚙️ Como rodar na sua máquina
+## Como rodar na sua máquina
 
 Para compilar, você só precisa do velho e confiável **GCC**. Puxe o terminal na raiz do projeto e divirta-se:
 
@@ -72,5 +72,5 @@ gcc -g praticas/calculadora_idade.c cabecalhos/cabecalho.c -o calculadora_idade.
 
 <div align="center">
   <br>
-  Feito com ☕, ódio por segmentation faults e muita dedicação.
+  Feito com café, ódio por segmentation faults e muita dedicação.
 </div>
