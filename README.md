@@ -27,8 +27,6 @@ O objetivo principal deste espaço é documentar minha **evolução técnica** e
 
 ## Mapa do Repositório
 
-Aqui a casa é organizada! Deixei de fora os arquivos de configuração do Git para focar apenas no que importa: o código.
-
 ```text
 praticando-c/
 │
