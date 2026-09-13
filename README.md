@@ -1,76 +1,80 @@
 <div align="center">
 
-<br/>
-
 ```text
-██████╗ ██████╗  █████╗ ████████╗██╗ ██████╗ █████╗ ███╗   ██╗██████╗  ██████╗      ██████╗
-██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝██║██╔════╝██╔══██╗████╗  ██║██╔══██╗██╔═══██╗    ██╔════╝
-██████╔╝██████╔╝███████║   ██║   ██║██║     ███████║██╔██╗ ██║██║  ██║██║   ██║    ██║     
-██╔═══╝ ██╔══██╗██╔══██║   ██║   ██║██║     ██╔══██║██║╚██╗██║██║  ██║██║   ██║    ██║     
-██║     ██║  ██║██║  ██║   ██║   ██║╚██████╗██║  ██║██║ ╚████║██████╔╝╚██████╔╝    ╚██████╗
-╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝  ╚═════╝      ╚═════╝
+ ___________________________________________
+|  _______________________________________  |
+| |                                       | |
+| |   >_ PRATICANDO C                     | |
+| |                                       | |
+| |   #include <stdio.h>                  | |
+| |                                       | |
+| |   int main() {                        | |
+| |       printf("Bem-vindo! \\n");       | |
+| |       return 0;                       | |
+| |   }                                   | |
+| |_______________________________________| |
+|___________________________________________|
+      |_______|               |_______|
 ```
 
-<br/>
+# 💻 Praticando C
+**Forjando a base da programação, ponteiro por ponteiro!**
 
-> **Repositório de exercícios práticos de lógica de programação em linguagem C**
-
-<br/>
-
-![Linguagem](https://img.shields.io/badge/Linguagem-C-blue?style=for-the-badge&logo=c&logoColor=white)
-![Plataforma](https://img.shields.io/badge/Plataforma-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![Compilador](https://img.shields.io/badge/Compilador-GCC%20%2F%20MinGW-A8B9CC?style=for-the-badge&logo=gnu&logoColor=black)
-![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-Pessoal-green?style=for-the-badge&logo=github&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![GCC](https://img.shields.io/badge/GCC-A8B9CC?style=for-the-badge&logo=gnu&logoColor=black)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
 </div>
 
 ---
 
-## 🎯 Sobre o Repositório
+## 🚀 O que é este repositório?
 
-Este repositório faz parte do meu **portfólio pessoal de aprendizado**.  
-Aqui estão reunidos exercícios práticos e estruturados em **C**, desenvolvidos com o objetivo de reforçar, estudar e compreender a lógica de programação, boas práticas e as minúcias da linguagem.
+Seja bem-vindo ao meu laboratório de **C**! 🧪
+Aqui é onde eu quebro a cabeça com gerenciamento de memória, estruturas de dados e a sintaxe clássica que deu origem a quase tudo que usamos hoje. 
+
+Este espaço serve como meu **portfólio pessoal e diário de bordo**, documentando minha evolução e entendimento da lógica de programação "direto no metal".
 
 ---
 
-## 📁 Estrutura de Arquivos
+## 🗺️ Mapa do Repositório
 
-A organização do projeto foi pensada para manter um ambiente limpo, modular e de fácil navegação:
+Aqui a casa é organizada! Deixei de fora os arquivos de configuração do Git para focar apenas no que importa: o código.
 
 ```text
-praticando-c/
+📂 praticando-c/
 │
-├── cabecalhos/
-│   ├── cabecalho.c            ← Implementações de funções utilitárias e de interface
-│   └── cabecalho.h            ← Assinaturas, structs e declarações globais
+├── 🗂️ cabecalhos/
+│   ├── cabecalho.c          ← Lógica por trás das funções utilitárias
+│   └── cabecalho.h          ← Contratos, structs e declarações globais
 │
-├── praticas/
-│   ├── cadastro_clientes.c    ← Cadastro de clientes com uso de structs e alocação dinâmica
-│   └── calculadora_idade.c    ← Sistema de cálculo e conversão de idades completas em dias
-│
-├── .gitignore                 ← Arquivos ignorados pelo Git
-└── README.md                  ← Documentação do repositório
+└── 🛠️ praticas/
+    ├── cadastro_clientes.c  ← (Prática 01) Gerenciamento via Structs + Alocação Dinâmica
+    └── calculadora_idade.c  ← (Prática 02) Lógica de conversão de tempo
 ```
 
 ---
 
-## ⚙️ Como Compilar e Executar
+## 🕹️ O que tem dentro das Práticas?
 
-Para compilar as práticas, recomendamos o uso do **GCC** a partir da raiz do repositório.
+| Arquivo | Descrição | Destaques Técnicos |
+| :--- | :--- | :--- |
+| `cadastro_clientes.c` | Um sistema de registro interativo de usuários via terminal. | `structs`, `malloc`, `free`, formatação de I/O |
+| `calculadora_idade.c` | Transforma idade de anos/meses/dias para total de dias vividos. | Matemática, modularização com arquivos `.h` e `.c` |
 
-### 📝 Exemplo 1: Prática Simples (Sem Múltiplos Módulos)
+---
 
-Para compilar o arquivo de cadastro de clientes:
+## ⚙️ Como rodar na sua máquina
 
+Para compilar, você só precisa do velho e confiável **GCC**. Puxe o terminal na raiz do projeto e divirta-se:
+
+**Para rodar o Cadastro de Clientes:**
 ```bash
 gcc -g praticas/cadastro_clientes.c -o cadastro_clientes.exe
 ./cadastro_clientes.exe
 ```
 
-### 🧠 Exemplo 2: Prática com Dependências de Cabeçalho
-
-Para compilar uma prática que utiliza arquivos da pasta de cabeçalhos (como a calculadora de idade):
-
+**Para rodar a Calculadora de Idade (que exige o cabeçalho customizado):**
 ```bash
 gcc -g praticas/calculadora_idade.c cabecalhos/cabecalho.c -o calculadora_idade.exe
 ./calculadora_idade.exe
@@ -79,9 +83,9 @@ gcc -g praticas/calculadora_idade.c cabecalhos/cabecalho.c -o calculadora_idade.
 ---
 
 <div align="center">
-
-<br/>
-
-*Aprendendo C, um programa por vez. Buscando sempre a excelência no código limpo e organizado!* 💻✨
-
+  <br>
+  <i>"C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do it blows your whole leg off."</i><br>
+  — Bjarne Stroustrup
+  <br><br>
+  Feito com ☕, ódio por segmentation faults e muita dedicação.
 </div>
