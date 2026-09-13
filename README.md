@@ -2,7 +2,7 @@
 
 <img src="assets/C-logo.png" width="120" alt="C Logo" />
 
-# 💻 Praticando C
+# Praticando C
 **Forjando a base da programação, ponteiro por ponteiro!**
 
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
