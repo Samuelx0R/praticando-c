@@ -1,40 +1,14 @@
-```text
-                   .:-:.                   
-                .:-------:.                
-             .:--------------.             
-          .:-------------------:.          
-       .:--------=+++++++=---------:       
-    .---------+*###########*+=--------:    
-  :--------=*#################*=--------:  
- .--------+#####################*----::::. 
- .-------*##########***##########*:::::::. 
- .------*########+-------=*###*+-::::::::. 
- .-----=#######+-----------++-:::::::::::. 
- .-----*######*----------::::::::::::::::. 
- .-----#######=-------:::::::::::::::::::. 
- .-----#######=----::.:::::::::::::::::::. 
- .-----*######*-::.......::::::::::::::::. 
- .-----+#######+...........=+-:::::::::::. 
- .------*#######*=:.....:-*####+-::::::::. 
- .-----::*#########**++*#########*:::::::. 
- .--::...:+#####################+:....:::. 
-  .........-*#################*-.........  
-     ........:+*###########*+-.........    
-        ........:-=+++++=-:.........       
-           ......................          
-              ................             
-                 ..........                
-                    ...                    
-```
-
 <div align="center">
+
+<img src="assets/logo.svg" width="380" alt="C Logo ASCII Art" />
 
 # 💻 Praticando C
 **Forjando a base da programação, ponteiro por ponteiro!**
 
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![GCC](https://img.shields.io/badge/GCC-A8B9CC?style=for-the-badge&logo=gnu&logoColor=black)
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+<img src="https://img.shields.io/badge/C-27338e?style=flat-square&logo=c&logoColor=white" alt="C" />
+<img src="https://img.shields.io/badge/GCC-A8B9CC?style=flat-square&logo=gnu&logoColor=black" alt="GCC" />
+<img src="https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white" alt="Windows" />
+<img src="https://img.shields.io/badge/VS_Code-0078D4?style=flat-square&logo=visual%20studio%20code&logoColor=white" alt="VS Code" />
 
 </div>
 
