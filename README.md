@@ -70,8 +70,5 @@ gcc -g praticas/calculadora_idade.c cabecalhos/cabecalho.c -o calculadora_idade.
 
 <div align="center">
   <br>
-  <i>"C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do it blows your whole leg off."</i><br>
-  — Bjarne Stroustrup
-  <br><br>
   Feito com ☕, ódio por segmentation faults e muita dedicação.
 </div>
