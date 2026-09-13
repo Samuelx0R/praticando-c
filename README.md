@@ -2,7 +2,7 @@
 
 <br/>
 
-```
+```text
 ██████╗ ██████╗  █████╗ ████████╗██╗ ██████╗ █████╗ ███╗   ██╗██████╗  ██████╗      ██████╗
 ██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝██║██╔════╝██╔══██╗████╗  ██║██╔══██╗██╔═══██╗    ██╔════╝
 ██████╔╝██████╔╝███████║   ██║   ██║██║     ███████║██╔██╗ ██║██║  ██║██║   ██║    ██║     
@@ -29,38 +29,51 @@
 ## 🎯 Sobre o Repositório
 
 Este repositório faz parte do meu **portfólio pessoal de aprendizado**.  
-Aqui estão reunidos exercícios práticos escritos em **C**, desenvolvidos com o objetivo de reforçar, estudar e compreender a lógica de programação e a linguagem.
+Aqui estão reunidos exercícios práticos e estruturados em **C**, desenvolvidos com o objetivo de reforçar, estudar e compreender a lógica de programação, boas práticas e as minúcias da linguagem.
 
 ---
 
-## 📁 Arquivos
+## 📁 Estrutura de Arquivos
 
-```
+A organização do projeto foi pensada para manter um ambiente limpo, modular e de fácil navegação:
+
+```text
 praticando-c/
 │
-├── base.h          ← Header utilitário para o ambiente Windows
-├── pratica01.c     ← Cadastro de clientes com structs e alocação dinâmica
-└── README.md
+├── cabecalhos/
+│   ├── cabecalho.c            ← Implementações de funções utilitárias e de interface
+│   └── cabecalho.h            ← Assinaturas, structs e declarações globais
+│
+├── praticas/
+│   ├── cadastro_clientes.c    ← Cadastro de clientes com uso de structs e alocação dinâmica
+│   └── calculadora_idade.c    ← Sistema de cálculo e conversão de idades completas em dias
+│
+├── .gitignore                 ← Arquivos ignorados pelo Git
+└── README.md                  ← Documentação do repositório
 ```
 
 ---
 
-## 🔧 `base.h` — Header Utilitário
+## ⚙️ Como Compilar e Executar
 
-O [`base.h`](./base.h) é um header auxiliar para o ambiente **Windows + VS Code + MinGW**.  
-Ele garante que **caracteres acentuados** apareçam corretamente no terminal e **impede que o console feche** sozinho ao fim do programa — sem nenhuma chamada manual no código.
+Para compilar as práticas, recomendamos o uso do **GCC** a partir da raiz do repositório.
 
-```c
-#include "base.h"  // Inclua como primeiro #include
-```
+### 📝 Exemplo 1: Prática Simples (Sem Múltiplos Módulos)
 
----
-
-## ⚙️ Como Compilar
+Para compilar o arquivo de cadastro de clientes:
 
 ```bash
-gcc -g pratica01.c -o pratica01.exe
-./pratica01.exe
+gcc -g praticas/cadastro_clientes.c -o cadastro_clientes.exe
+./cadastro_clientes.exe
+```
+
+### 🧠 Exemplo 2: Prática com Dependências de Cabeçalho
+
+Para compilar uma prática que utiliza arquivos da pasta de cabeçalhos (como a calculadora de idade):
+
+```bash
+gcc -g praticas/calculadora_idade.c cabecalhos/cabecalho.c -o calculadora_idade.exe
+./calculadora_idade.exe
 ```
 
 ---
@@ -69,6 +82,6 @@ gcc -g pratica01.c -o pratica01.exe
 
 <br/>
 
-*Aprendendo C, um programa por vez.* 💻
+*Aprendendo C, um programa por vez. Buscando sempre a excelência no código limpo e organizado!* 💻✨
 
 </div>

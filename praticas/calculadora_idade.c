@@ -16,18 +16,38 @@ Considere que 1 ano possui 365 dias e 1 mês possui 30 dias.
 Desconsidere anos bissextos e diferenças reais na quantidade de dias dos meses.
 */
 
-#include "base.h"
-#include "cabecalho.h"
+#include "../.env"
+#include "../cabecalhos/cabecalho.h"
 
 void leitura(int idades[], int tamanho);
 void transforma(int idades[], int tamanho);
 void compara(int idades_comparacao[], int tamanho);
-void cabecalho();
 
 int main() {
     
-    cabecalho();
-    
+    int verifica = 1;
+    int idade_primeira[3], idade_segunda[3];
+
+    leitura_dados();
+
+    do{
+       
+        leitura(idade_primeira, 3);
+        leitura(idade_segunda, 3);
+        
+
+
+        printf("\nDeseja continuar?\n(1) - Sim\n(0) - Não\n-> ");
+        scanf("%d", &verifica);
+    }while(verifica != 0);
     
     return 0;
+}
+
+void leitura(int idades[], int tamanho){
+
+    printf("\nDigite a sua idade seguindo o padrão:\n[ANO] [MêSES] [DIAS]\n-> ");
+    for(int i = 0; i < tamanho; i++){
+        scanf("%d", &idades[i]);
+    }
 }

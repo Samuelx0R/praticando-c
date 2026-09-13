@@ -1,6 +1,6 @@
 #ifndef CABECALHO_H
 #define CABECALHO_H
 
-void cabecalho();
+void leitura_dados();
 
 #endif
