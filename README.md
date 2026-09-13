@@ -1,14 +1,14 @@
 <div align="center">
 
-<img src="assets/logo.svg" width="380" alt="C Logo ASCII Art" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="120" alt="C Logo" />
 
 # 💻 Praticando C
 **Forjando a base da programação, ponteiro por ponteiro!**
 
-<img src="https://img.shields.io/badge/C-27338e?style=flat-square&logo=c&logoColor=white" alt="C" />
-<img src="https://img.shields.io/badge/GCC-A8B9CC?style=flat-square&logo=gnu&logoColor=black" alt="GCC" />
-<img src="https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white" alt="Windows" />
-<img src="https://img.shields.io/badge/VS_Code-0078D4?style=flat-square&logo=visual%20studio%20code&logoColor=white" alt="VS Code" />
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![GCC](https://img.shields.io/badge/gcc-%23A8B9CC.svg?style=for-the-badge&logo=gnu&logoColor=black)
+![Windows](https://img.shields.io/badge/Windows-%230078D6.svg?style=for-the-badge&logo=windows&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-%230078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 </div>
 
