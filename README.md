@@ -52,18 +52,14 @@ praticando-c/
 
 ## Como rodar na sua máquina
 
-Para compilar, você só precisa do velho e confiável **GCC**. Puxe o terminal na raiz do projeto e divirta-se:
+Para compilar qualquer prática, certifique-se de ter o compilador **GCC** instalado. No terminal, a partir da raiz do projeto, utilize o padrão abaixo:
 
-**Para rodar o Cadastro de Clientes:**
 ```bash
-gcc -g praticas/cadastro_clientes.c -o cadastro_clientes.exe
-./cadastro_clientes.exe
-```
+# 1. Compile a prática (incluindo a pasta de cabeçalhos caso necessário)
+gcc -g praticas/[nome_da_pratica].c cabecalhos/*.c -o [nome_do_executavel].exe
 
-**Para rodar a Calculadora de Idade (que exige o cabeçalho customizado):**
-```bash
-gcc -g praticas/calculadora_idade.c cabecalhos/cabecalho.c -o calculadora_idade.exe
-./calculadora_idade.exe
+# 2. Execute o arquivo gerado
+./[nome_do_executavel].exe
 ```
 
 ---
