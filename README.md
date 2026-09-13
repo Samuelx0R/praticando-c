@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="120" alt="C Logo" />
+<img src="assets/C-logo.png" width="120" alt="C Logo" />
 
 # 💻 Praticando C
 **Forjando a base da programação, ponteiro por ponteiro!**
@@ -17,9 +17,9 @@
 ## 🚀 O que é este repositório?
 
 Seja bem-vindo ao meu laboratório de **C**! 🧪
-Aqui é onde eu quebro a cabeça com gerenciamento de memória, estruturas de dados e a sintaxe clássica que deu origem a quase tudo que usamos hoje. 
+Aqui é onde eu consolido minha base em programação "direto no metal", lidando com alocação de memória, ponteiros e a sintaxe clássica da linguagem.
 
-Este espaço serve como meu **portfólio pessoal e diário de bordo**, documentando minha evolução e entendimento da lógica de programação "direto no metal".
+O objetivo principal deste espaço é documentar minha **evolução técnica** e servir como um campo de treinamento focado na minha preparação para a disciplina de **Estruturas de Dados**.
 
 ---
 
