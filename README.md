@@ -36,7 +36,7 @@ praticando-c/
 │
 └── praticas/
     ├── cadastro_clientes.c  ← (Prática 01) Gerenciamento via Structs + Alocação Dinâmica
-    └── calculadora_idade.c  ← (Prática 02) Lógica de conversão de tempo
+    └── next
 ```
 
 ---
