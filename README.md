@@ -30,13 +30,17 @@ O objetivo principal deste espaço é documentar minha **evolução técnica** e
 ```text
 praticando-c/
 │
+├── assets/
+│   ├── C-logo.png
+│   └── enunciado_entrega_c.pdf  ← Enunciado dos exercícios 01 a 12
+│
 ├── cabecalhos/
 │   ├── cabecalho.c          ← Lógica por trás das funções utilitárias
 │   └── cabecalho.h          ← Contratos, structs e declarações globais
 │
 └── praticas/
     ├── cadastro_clientes.c  ← (Prática 01) Gerenciamento via Structs + Alocação Dinâmica
-    └── next
+    └── exercicio01.c ... exercicio12.c  ← Lista de exercícios da entrega de C
 ```
 
 ---
@@ -47,6 +51,18 @@ praticando-c/
 | :--- | :--- | :--- |
 | `cadastro_clientes.c` | Um sistema de registro interativo de usuários via terminal. | `structs`, `malloc`, `free`, formatação de I/O |
 | `calculadora_idade.c` | Transforma idade de anos/meses/dias para total de dias vividos. | Matemática, modularização com arquivos `.h` e `.c` |
+| `exercicio01.c` | Calcula o valor final de um produto com imposto conforme o estado de destino. | `switch`, `do/while`, funções |
+| `exercicio02.c` | Calcula média geométrica, ponderada, harmônica ou aritmética de 3 valores. | `switch`, `math.h`, menu interativo |
+| `exercicio03.c` | Lê um vetor de 20 posições e exibe o vetor invertido. | `malloc`, `free`, ponteiros, vetores |
+| `exercicio04.c` | Lê uma matriz 5x5 e imprime apenas os valores ímpares com suas posições. | matrizes, laços aninhados |
+| `exercicio05.c` | Lê 4 notas e calcula a média final. | alocação dinâmica, ponteiros |
+| `exercicio06.c` | Agenda telefônica com nome, e-mail e telefone. | `struct`, `typedef`, `malloc` |
+| `exercicio07.c` | Calcula o IMC a partir de peso e altura. | passagem por referência, `math.h` |
+| `exercicio08.c` | Lê, exibe e altera valores de vetores `int`, `float` e `char`. | múltiplas alocações, ponteiros |
+| `exercicio09.c` | Converte 24 temperaturas de Kelvin para Fahrenheit. | vetores dinâmicos, conversão de unidades |
+| `exercicio10.c` | Aplica taxa de correção de 5% no preço de brinquedos. | alocação com tamanho em tempo de execução |
+| `exercicio11.c` | Cadastro de candidatos com nome, cidade e idade. | `struct`, `malloc`, leitura de strings |
+| `exercicio12.c` | Estatísticas de notas: média, maior, menor e quantas ficaram acima da média. | ponteiros de saída, validação de entrada |
 
 ---
 
