@@ -40,7 +40,20 @@ praticando-c/
 │
 └── praticas/
     ├── cadastro_clientes.c  ← (Prática 01) Gerenciamento via Structs + Alocação Dinâmica
-    └── exercicio01.c ... exercicio12.c  ← Lista de exercícios da entrega de C
+    │
+    │   # Lista de exercícios da entrega de C
+    ├── imposto_por_estado.c
+    ├── calculadora_medias.c
+    ├── inverte_vetor.c
+    ├── matriz_impares.c
+    ├── media_notas.c
+    ├── agenda_telefonica.c
+    ├── calculadora_imc.c
+    ├── vetores_tipos_basicos.c
+    ├── kelvin_para_fahrenheit.c
+    ├── correcao_preco_brinquedos.c
+    ├── cadastro_candidatos.c
+    └── estatistica_notas.c
 ```
 
 ---
@@ -51,18 +64,18 @@ praticando-c/
 | :--- | :--- | :--- |
 | `cadastro_clientes.c` | Um sistema de registro interativo de usuários via terminal. | `structs`, `malloc`, `free`, formatação de I/O |
 | `calculadora_idade.c` | Transforma idade de anos/meses/dias para total de dias vividos. | Matemática, modularização com arquivos `.h` e `.c` |
-| `exercicio01.c` | Calcula o valor final de um produto com imposto conforme o estado de destino. | `switch`, `do/while`, funções |
-| `exercicio02.c` | Calcula média geométrica, ponderada, harmônica ou aritmética de 3 valores. | `switch`, `math.h`, menu interativo |
-| `exercicio03.c` | Lê um vetor de 20 posições e exibe o vetor invertido. | `malloc`, `free`, ponteiros, vetores |
-| `exercicio04.c` | Lê uma matriz 5x5 e imprime apenas os valores ímpares com suas posições. | matrizes, laços aninhados |
-| `exercicio05.c` | Lê 4 notas e calcula a média final. | alocação dinâmica, ponteiros |
-| `exercicio06.c` | Agenda telefônica com nome, e-mail e telefone. | `struct`, `typedef`, `malloc` |
-| `exercicio07.c` | Calcula o IMC a partir de peso e altura. | passagem por referência, `math.h` |
-| `exercicio08.c` | Lê, exibe e altera valores de vetores `int`, `float` e `char`. | múltiplas alocações, ponteiros |
-| `exercicio09.c` | Converte 24 temperaturas de Kelvin para Fahrenheit. | vetores dinâmicos, conversão de unidades |
-| `exercicio10.c` | Aplica taxa de correção de 5% no preço de brinquedos. | alocação com tamanho em tempo de execução |
-| `exercicio11.c` | Cadastro de candidatos com nome, cidade e idade. | `struct`, `malloc`, leitura de strings |
-| `exercicio12.c` | Estatísticas de notas: média, maior, menor e quantas ficaram acima da média. | ponteiros de saída, validação de entrada |
+| `imposto_por_estado.c` | Calcula o valor final de um produto com imposto conforme o estado de destino. | `switch`, `do/while`, funções |
+| `calculadora_medias.c` | Calcula média geométrica, ponderada, harmônica ou aritmética de 3 valores. | `switch`, `math.h`, menu interativo |
+| `inverte_vetor.c` | Lê um vetor de 20 posições e exibe o vetor invertido. | `malloc`, `free`, ponteiros, vetores |
+| `matriz_impares.c` | Lê uma matriz 5x5 e imprime apenas os valores ímpares com suas posições. | matrizes, laços aninhados |
+| `media_notas.c` | Lê 4 notas e calcula a média final. | alocação dinâmica, ponteiros |
+| `agenda_telefonica.c` | Agenda telefônica com nome, e-mail e telefone. | `struct`, `typedef`, `malloc` |
+| `calculadora_imc.c` | Calcula o IMC a partir de peso e altura. | passagem por referência, `math.h` |
+| `vetores_tipos_basicos.c` | Lê, exibe e altera valores de vetores `int`, `float` e `char`. | múltiplas alocações, ponteiros |
+| `kelvin_para_fahrenheit.c` | Converte 24 temperaturas de Kelvin para Fahrenheit. | vetores dinâmicos, conversão de unidades |
+| `correcao_preco_brinquedos.c` | Aplica taxa de correção de 5% no preço de brinquedos. | alocação com tamanho em tempo de execução |
+| `cadastro_candidatos.c` | Cadastro de candidatos com nome, cidade e idade. | `struct`, `malloc`, leitura de strings |
+| `estatistica_notas.c` | Estatísticas de notas: média, maior, menor e quantas ficaram acima da média. | ponteiros de saída, validação de entrada |
 
 ---
 
